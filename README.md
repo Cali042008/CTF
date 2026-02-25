@@ -10,7 +10,7 @@
 
 # 🗂️ Navigation
   * ## 🔧 [Tools](./Tools.md)
-  * ## 📚 [Resurse folositoare](./Resurse/)
+  * ## 📚 [Resurse folositoare](./Resurse.md)
   * ## 📝 [Write-ups](./Write-ups/)
   * ## 💻 [Scripts](./Scripts/)
 
