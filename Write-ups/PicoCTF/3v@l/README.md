@@ -33,7 +33,7 @@ Harmful code (often python) which can be used to control the system.
 ###  While searching for some resources i have found these useful stuff :
 * #### [Python Jail Escapes/KITCTF](https://kitctf.de/learning/python-jails)
 * #### [Python CheatSheet](https://shirajuki.js.org/blog/pyjail-cheatsheet/)
-### First I tried observing where the a suspicious file may be. So the first injection i did was:
+### First I tried observing where  a suspicious file may be. So the first injection i did was:
 ```
 __import__('o'+'s').popen('l'+'s').read()
 ```
