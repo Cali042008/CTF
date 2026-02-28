@@ -29,6 +29,10 @@ Al doilea link este putin mai complicat asa ca first choice ii primul.
   ```
   Iti zice instant ce  ruleaza pe site (PHP, Python, React etc).
   ```
+* **https://github.com/swisskyrepo/PayloadsAllTheThings**
+  ```
+  Payload pt orice.
+  ```
 
 ---
 
