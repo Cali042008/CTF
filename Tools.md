@@ -105,6 +105,10 @@ Al doilea link este putin mai complicat asa ca first choice ii primul.
   ```
   Extrage fisiere ascunse in alte fisiere (ex: un zip ascuns intr-un jpg).
   ```
+* **Stegcracker**
+  ```
+  Mod de folosire: stegcracker filename /usr/share/wordlists/lista_dorita
+  ```
 
 ---
 
