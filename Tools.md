@@ -9,7 +9,11 @@ In the meantime poti visita:
 * https://book.hacktricks.wiki/en/index.html
 
 Al doilea link este putin mai complicat asa ca first choice ii primul.
-
+### COMMANDS
+* **https://realpython.com/python-virtual-environments-a-primer/**
+  ```
+   Ca sa iti creezi virtual environment pt pip.
+  ```
 ### 🌐 WEB
 
 * **https://requestrepo.com**
@@ -108,6 +112,10 @@ Al doilea link este putin mai complicat asa ca first choice ii primul.
 * **Stegcracker**
   ```
   Mod de folosire: stegcracker filename /usr/share/wordlists/lista_dorita
+  ```
+* **[Uncompyle6](https://pypi.org/project/uncompyle6/)**
+  ```
+  Exact numele.
   ```
 
 ---
