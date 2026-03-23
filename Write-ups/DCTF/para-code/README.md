@@ -21,7 +21,7 @@
 
   * ### The blacklist only contains two-letter commands, but it doesn't include **all** two-letter commands.
   * ### The string of characters used must be under 5 characters long.
-
+![](./images/image_1png.png)
 -----
 
 ## Cruel Realization:
@@ -42,6 +42,7 @@
 
 <!-- end list -->
 
+![](./images/image_2.png)
 ```
 2_Letter_Command+*
 ```
