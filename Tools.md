@@ -138,3 +138,8 @@ Al doilea link este putin mai complicat asa ca first choice ii primul.
   ```
   Script de python. Ii dai un username si il cauta pe toate retelele sociale.
   ```
+* **Cupp**
+  ```
+  Script pentru a-ti genera parole in functie de raspunsurile la niste intrebari.
+  python3 cupp/cupp.py -i
+  ```
