@@ -55,7 +55,25 @@ Al doilea link este putin mai complicat asa ca first choice ii primul.
   Are decodoare pentru toate cifrurile ciudate de care n-a auzit nimeni.
   ```
 
----
+
+* **https://sagecell.sagemath.org/**
+  ```python
+  # Definire Corp finit (Mod p)
+  F = GF(p) 
+  
+  # Operatii de baza
+  F(a).sqrt()           #(Radacina patrata)
+  F(a).is_square()     # Verifica daca exista radacina 
+  inverse_mod(a, p)    # Invers modular (a^-1 mod p)
+  
+ 
+  discrete_log(F(target), F(base)) #logaritm discret
+  
+  # Factorizare & Primes
+  is_prime(n)          
+  factor(n)            # Descompunere in factori primi
+  ```
+
 
 ### 🧠 REV & PWN
 
