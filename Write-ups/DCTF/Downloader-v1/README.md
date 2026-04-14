@@ -30,4 +30,5 @@ With this knowledge, we can create the following payload:
 * **`--post-file=flag.php`**: This argument tells `wget` that before downloading the contents of the chosen site, it should send the mentioned file through a POST request.
 * **`-v`**: This stands for **Verbose**. It provides more details about the connection process, which can help ensure the command executes and provides feedback in the logs.
 
+![](./images/2png.png)
 ---
